@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.528898,
+  "batch_size": 256,
+  "checkpoint": "checkpoints\\CipherSpectrum\\TMWF\\max_f1.pth",
+  "dataset": "CipherSpectrum",
+  "loss": 1.518357,
+  "macro_f1": 0.517478,
+  "model": "TMWF",
+  "num_test_samples": 4118,
+  "seq_length": 30720
+}

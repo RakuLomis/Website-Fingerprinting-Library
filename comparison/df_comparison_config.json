@@ -1,0 +1,38 @@
+{
+  "model": "DF",
+  "datasets": ["cstnet_tls_1.3", "CipherSpectrum"],
+  "raw_root": "../../TrafficData/datasets_raw_add2",
+  "generated_root": "../../TrafficData/generated_for_comparison/DF",
+  "results_root": "results",
+  "checkpoints_root": "checkpoints",
+  "python_cmd": ["conda", "run", "--no-capture-output", "-n", "Pytorch_env", "python"],
+  "seed": 42,
+  "split_ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "seq_len": 5000,
+  "feature": "DIR",
+  "train": {
+    "device": "cuda",
+    "epochs": 30,
+    "batch_size": 128,
+    "learning_rate": 0.002,
+    "optimizer": "Adamax",
+    "num_workers": 10,
+    "save_name": "max_f1"
+  },
+  "eval": {
+    "batch_size": 256,
+    "num_workers": 0
+  },
+  "cpu_benchmark": {
+    "latency_batch_size": 1,
+    "throughput_batch_size": 32,
+    "warmup_samples": 100,
+    "measured_samples": 1000,
+    "num_threads": null
+  },
+  "preprocess_policy": "PCAP parsed into DF DIR sequences only: ETH headers, IP addresses, TCP/UDP ports, protocol identifiers, and TLS SNI are excluded from model features. Bidirectional five-tuples are used only for flow-safe split assignment and split_manifest.tsv auditing."
+}

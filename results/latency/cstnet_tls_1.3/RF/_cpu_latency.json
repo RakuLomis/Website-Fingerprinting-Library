@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints\\cstnet_tls_1.3\\RF\\max_f1.pth",
+  "cpu_latency_mean_ms": 4.706852,
+  "cpu_latency_p50_ms": 4.7281,
+  "cpu_latency_p90_ms": 5.31488,
+  "cpu_latency_p95_ms": 5.460695,
+  "cpu_latency_p99_ms": 5.840376,
+  "cpu_threads": 6,
+  "cpu_throughput_samples_per_s": 402.383899,
+  "cuda_visible_devices": "",
+  "dataset": "cstnet_tls_1.3",
+  "device": "cpu",
+  "input_length": 1800,
+  "latency_batch_size": 1,
+  "measured_samples": 1000,
+  "model": "RF",
+  "seq_length": 1800,
+  "throughput_batch_size": 32,
+  "warmup_samples": 100
+}

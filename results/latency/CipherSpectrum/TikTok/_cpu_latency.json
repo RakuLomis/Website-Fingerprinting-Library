@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints\\CipherSpectrum\\TikTok\\max_f1.pth",
+  "cpu_latency_mean_ms": 5.334344,
+  "cpu_latency_p50_ms": 5.25225,
+  "cpu_latency_p90_ms": 5.82162,
+  "cpu_latency_p95_ms": 5.99942,
+  "cpu_latency_p99_ms": 6.446675,
+  "cpu_threads": 6,
+  "cpu_throughput_samples_per_s": 303.984677,
+  "cuda_visible_devices": "",
+  "dataset": "CipherSpectrum",
+  "device": "cpu",
+  "input_length": 5000,
+  "latency_batch_size": 1,
+  "measured_samples": 1000,
+  "model": "TikTok",
+  "seq_length": 5000,
+  "throughput_batch_size": 32,
+  "warmup_samples": 100
+}

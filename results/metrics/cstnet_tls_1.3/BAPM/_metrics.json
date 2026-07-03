@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.406948,
+  "batch_size": 256,
+  "checkpoint": "checkpoints\\cstnet_tls_1.3\\BAPM\\max_f1.pth",
+  "dataset": "cstnet_tls_1.3",
+  "loss": 2.144242,
+  "macro_f1": 0.350532,
+  "model": "BAPM",
+  "num_test_samples": 403,
+  "seq_length": 8500
+}

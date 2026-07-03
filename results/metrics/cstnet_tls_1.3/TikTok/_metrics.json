@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.223325,
+  "batch_size": 256,
+  "checkpoint": "checkpoints\\cstnet_tls_1.3\\TikTok\\max_f1.pth",
+  "dataset": "cstnet_tls_1.3",
+  "loss": 2.572393,
+  "macro_f1": 0.137812,
+  "model": "TikTok",
+  "num_test_samples": 403,
+  "seq_length": 5000
+}

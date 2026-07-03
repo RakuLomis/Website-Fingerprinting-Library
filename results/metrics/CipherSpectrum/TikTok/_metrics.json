@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.717581,
+  "batch_size": 256,
+  "checkpoint": "checkpoints\\CipherSpectrum\\TikTok\\max_f1.pth",
+  "dataset": "CipherSpectrum",
+  "loss": 0.849268,
+  "macro_f1": 0.713508,
+  "model": "TikTok",
+  "num_test_samples": 4118,
+  "seq_length": 5000
+}

@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints\\CipherSpectrum\\DF\\max_f1.pth",
+  "cpu_latency_mean_ms": 5.231563,
+  "cpu_latency_p50_ms": 5.2002,
+  "cpu_latency_p90_ms": 5.66725,
+  "cpu_latency_p95_ms": 5.82584,
+  "cpu_latency_p99_ms": 6.143235,
+  "cpu_threads": 6,
+  "cpu_throughput_samples_per_s": 310.940198,
+  "cuda_visible_devices": "",
+  "dataset": "CipherSpectrum",
+  "device": "cpu",
+  "input_length": 5000,
+  "latency_batch_size": 1,
+  "measured_samples": 1000,
+  "model": "DF",
+  "seq_length": 5000,
+  "throughput_batch_size": 32,
+  "warmup_samples": 100
+}

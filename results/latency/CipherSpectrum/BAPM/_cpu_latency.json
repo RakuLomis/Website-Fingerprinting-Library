@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints\\CipherSpectrum\\BAPM\\max_f1.pth",
+  "cpu_latency_mean_ms": 1.497668,
+  "cpu_latency_p50_ms": 1.49,
+  "cpu_latency_p90_ms": 1.69491,
+  "cpu_latency_p95_ms": 1.827285,
+  "cpu_latency_p99_ms": 2.010299,
+  "cpu_threads": 6,
+  "cpu_throughput_samples_per_s": 1035.081607,
+  "cuda_visible_devices": "",
+  "dataset": "CipherSpectrum",
+  "device": "cpu",
+  "input_length": 8500,
+  "latency_batch_size": 1,
+  "measured_samples": 1000,
+  "model": "BAPM",
+  "seq_length": 8500,
+  "throughput_batch_size": 32,
+  "warmup_samples": 100
+}

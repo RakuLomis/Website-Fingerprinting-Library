@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.625061,
+  "batch_size": 256,
+  "checkpoint": "checkpoints\\CipherSpectrum\\RF\\max_f1.pth",
+  "dataset": "CipherSpectrum",
+  "loss": 1.361387,
+  "macro_f1": 0.631767,
+  "model": "RF",
+  "num_test_samples": 4118,
+  "seq_length": 1800
+}

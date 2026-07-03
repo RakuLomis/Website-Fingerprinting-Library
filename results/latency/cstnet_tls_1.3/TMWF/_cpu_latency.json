@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints\\cstnet_tls_1.3\\TMWF\\max_f1.pth",
+  "cpu_latency_mean_ms": 28.553783,
+  "cpu_latency_p50_ms": 28.6233,
+  "cpu_latency_p90_ms": 29.86836,
+  "cpu_latency_p95_ms": 30.17412,
+  "cpu_latency_p99_ms": 30.960758,
+  "cpu_threads": 6,
+  "cpu_throughput_samples_per_s": 45.339427,
+  "cuda_visible_devices": "",
+  "dataset": "cstnet_tls_1.3",
+  "device": "cpu",
+  "input_length": 30720,
+  "latency_batch_size": 1,
+  "measured_samples": 1000,
+  "model": "TMWF",
+  "seq_length": 30720,
+  "throughput_batch_size": 32,
+  "warmup_samples": 100
+}

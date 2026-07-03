@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.245508,
+  "batch_size": 256,
+  "checkpoint": "checkpoints\\CipherSpectrum\\VarCNN\\max_f1.pth",
+  "dataset": "CipherSpectrum",
+  "loss": 2.543474,
+  "macro_f1": 0.207158,
+  "model": "VarCNN",
+  "num_test_samples": 4118,
+  "seq_length": 5000
+}

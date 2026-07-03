@@ -1,0 +1,20 @@
+{
+  "checkpoint": "checkpoints\\CipherSpectrum\\VarCNN\\max_f1.pth",
+  "cpu_latency_mean_ms": 23.227336,
+  "cpu_latency_p50_ms": 23.269,
+  "cpu_latency_p90_ms": 24.38597,
+  "cpu_latency_p95_ms": 24.676385,
+  "cpu_latency_p99_ms": 25.313707,
+  "cpu_threads": 6,
+  "cpu_throughput_samples_per_s": 64.825863,
+  "cuda_visible_devices": "",
+  "dataset": "CipherSpectrum",
+  "device": "cpu",
+  "input_length": 5000,
+  "latency_batch_size": 1,
+  "measured_samples": 1000,
+  "model": "VarCNN",
+  "seq_length": 5000,
+  "throughput_batch_size": 32,
+  "warmup_samples": 100
+}

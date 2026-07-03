@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.509713,
+  "batch_size": 256,
+  "checkpoint": "checkpoints\\CipherSpectrum\\BAPM\\max_f1.pth",
+  "dataset": "CipherSpectrum",
+  "loss": 1.568601,
+  "macro_f1": 0.50282,
+  "model": "BAPM",
+  "num_test_samples": 4118,
+  "seq_length": 8500
+}

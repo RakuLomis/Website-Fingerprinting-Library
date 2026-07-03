@@ -166,3 +166,13 @@ checkpoints
 logs
 tmp_files
 analysis
+
+# Fair-comparison generated artifacts and large model files
+checkpoints/
+models/finetuned/
+outputs/
+generated_for_comparison/
+generated_data/
+*.pt
+*.pth
+*.ckpt

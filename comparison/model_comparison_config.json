@@ -1,0 +1,32 @@
+{
+  "models": ["DF", "AWF", "TikTok", "VarCNN", "BAPM", "TMWF", "RF", "ARES"],
+  "datasets": ["cstnet_tls_1.3", "CipherSpectrum"],
+  "raw_root": "../../TrafficData/datasets_raw_add2",
+  "generated_root": "../../TrafficData/generated_for_comparison/WFlib",
+  "results_root": "results",
+  "checkpoints_root": "checkpoints",
+  "python_cmd": ["conda", "run", "--no-capture-output", "-n", "Pytorch_env", "python"],
+  "seed": 42,
+  "base_seq_len": 30720,
+  "split_ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  },
+  "train": {
+    "device": "cuda",
+    "num_workers": 10,
+    "save_name": "max_f1"
+  },
+  "eval": {
+    "num_workers": 0
+  },
+  "cpu_benchmark": {
+    "latency_batch_size": 1,
+    "throughput_batch_size": 32,
+    "warmup_samples": 100,
+    "measured_samples": 1000,
+    "num_threads": null
+  },
+  "preprocess_policy": "PCAP parsed into WFlib base signed-time sequences. ETH headers, IP addresses, TCP/UDP ports, protocol identifiers, and TLS SNI are excluded from model features. Bidirectional five-tuples are used only for flow-safe split assignment and split_manifest.tsv auditing."
+}

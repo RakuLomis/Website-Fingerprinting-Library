@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.364012,
+  "batch_size": 256,
+  "checkpoint": "checkpoints\\CipherSpectrum\\AWF\\max_f1.pth",
+  "dataset": "CipherSpectrum",
+  "loss": 2.128418,
+  "macro_f1": 0.338864,
+  "model": "AWF",
+  "num_test_samples": 4118,
+  "seq_length": 3000
+}

@@ -1,0 +1,18 @@
+{
+  "active_param_ratio": 1.0,
+  "active_params_estimated": 3679386,
+  "conditional_compute": false,
+  "dataset": "cstnet_tls_1.3",
+  "dense_equivalent_flops": 459405850,
+  "effective_flops": 459405850,
+  "flops_method": "forward hooks over Conv1d, Conv2d, and Linear multiply-adds for batch_size=1; normalization/activation/pooling/attention matmul overhead omitted",
+  "input_shape": [
+    1,
+    1,
+    5000
+  ],
+  "model": "DF",
+  "seq_length": 5000,
+  "total_params": 3679386,
+  "trainable_params": 3679386
+}
